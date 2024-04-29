@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartActivity">
+
+    <!-- 상품 정보 표시를 위한 TextView -->
+    <TextView
+        android:id="@+id/product_info_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="상품 정보"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <!-- 상품 가격 표시를 위한 TextView -->
+    <TextView
+        android:id="@+id/price_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="상품 가격"
+        android:layout_below="@id/product_info_text"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true" />
+
+    <!-- 기타 필요한 레이아웃 요소들을 추가하세요 -->
+
+</RelativeLayout>
