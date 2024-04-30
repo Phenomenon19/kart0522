@@ -30,12 +30,12 @@ public class ShoppingActivity extends AppCompatActivity {
             }
         });
 
-        // 성인 인증 버튼 초기화
-        Button ageVerificationButton = findViewById(R.id.age_verification_button);
+        // 신분증 인식 버튼 초기화
+        Button ageVerificationButton = findViewById(R.id.ocr_button);
         ageVerificationButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // 성인 인증 다이얼로그 또는 액티비티를 띄우는 코드를 추가하세요.
+                // 신분증 인식 다이얼로그 또는 액티비티를 띄우는 코드를 추가하세요.
             }
         });
     }

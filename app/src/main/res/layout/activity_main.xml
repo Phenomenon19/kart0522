@@ -6,13 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".ShoppingActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:src="@drawable/smartshoppingcart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome to My Shopping App!"
+        android:layout_below="@+id/imageView"
         android:layout_centerInParent="true"
-        android:textSize="20sp" />
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/map_button"
@@ -21,7 +30,7 @@
         android:text="마트 지도"
         android:layout_below="@id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="30dp" />
 
     <Button
         android:id="@+id/cart_button"
@@ -30,15 +39,15 @@
         android:text="장바구니"
         android:layout_below="@id/map_button"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="30dp" />
 
     <Button
-        android:id="@+id/age_verification_button"
+        android:id="@+id/ocr_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="성인 인증"
+        android:text="신분증 인식"
         android:layout_below="@id/cart_button"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="30dp" />
 
 </RelativeLayout>
