@@ -32,7 +32,7 @@ android {
 }
 
 dependencies {
-
+    implementation("org.altbeacon:android-beacon-library:2.19.5")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)

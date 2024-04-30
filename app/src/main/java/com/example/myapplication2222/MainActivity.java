@@ -20,12 +20,11 @@ public class MainActivity extends AppCompatActivity {
         mapButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // ShoppingActivity로 이동하는 Intent를 생성합니다.
-                Intent intent = new Intent(MainActivity.this, ShoppingActivity.class);
+                // MapActivity로 이동하는 Intent를 생성합니다.
+                Intent intent = new Intent(MainActivity.this, MapActivity.class);
                 startActivity(intent);  // 액티비티 전환
             }
         });
-
         // 장바구니 버튼에 클릭 리스너를 설정합니다.
         cartButton.setOnClickListener(new View.OnClickListener() {
             @Override
