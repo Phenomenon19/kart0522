@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "709195561017",
+    "project_id": "kartrider-f7220",
+    "storage_bucket": "kartrider-f7220.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709195561017:android:4c8b81a71040e16dfc35e8",
+        "android_client_info": {
+          "package_name": "com.example.myapplication2222"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCNiZ8hqkCrudH5impLXuh0oMl1df_Rgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
